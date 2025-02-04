@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Товари - Sava Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="site-header">
+    <h1>Sava Shop</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="products.html">Товари</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+        <li><a href="cart.html"><img src="images/cart-icon.png" alt="Кошик" style="width: 25px;"></a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Секція товарів -->
+  <section class="products-section">
+    <h2>Наші види меду 🍯</h2>
+    <div class="product-list">
+      <!-- Товар 1 -->
+      <div class="product-card">
+        <img src="images/honey-linden.jpg" alt="Липовий мед">
+        <h3>Липовий мед</h3>
+        <p>Натуральний липовий мед з чудовим ароматом.</p>
+        <p><strong>Ціна:</strong> 200 грн</p>
+        <button class="add-to-cart-btn" data-name="Липовий мед" data-price="200">Додати до кошика</button>
+      </div>
+
+      <!-- Товар 2 -->
+      <div class="product-card">
+        <img src="images/honey-acacia.jpg" alt="Акаційовий мед">
+        <h3>Акаційовий мед</h3>
+        <p>Солодкий і легкий мед з акації.</p>
+        <p><strong>Ціна:</strong> 250 грн</p>
+        <button class="add-to-cart-btn" data-name="Акаційовий мед" data-price="250">Додати до кошика</button>
+      </div>
+
+      <!-- Додайте більше товарів за потребою -->
+    </div>
+  </section>
+
+  <!-- Підвал -->
+  <footer class="site-footer">
+    <p>&copy; 2023 Sava Shop. Усі права захищені.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
